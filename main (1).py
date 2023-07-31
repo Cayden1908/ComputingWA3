@@ -181,9 +181,9 @@ while True:
                     print("BRUH why u sell the question")
     
                 asked_questions.append(question)
-                print(1)
+                
                 if score >= 5:
-                  print(2)  
+                  
                   game_over = True
                 else:
                     while question in asked_questions:
@@ -228,7 +228,7 @@ while True:
     
         k = pygame.key.get_pressed()
         if k[pygame.K_r]: 
-            print("restart")
+           
             score = 0
             question = random.choice(list(questions.keys()))
             asked_questions.clear()
