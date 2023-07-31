@@ -178,7 +178,7 @@ while True:
                 else:
                     score -= 1
                     lose += 1
-                    print("BRUH why u sell the question")
+                    print("BRUH why u sell the question, even Jovan could get it correct")
     
                 asked_questions.append(question)
                 
@@ -189,7 +189,7 @@ while True:
                     while question in asked_questions:
                         question = random.choice(list(questions.keys()))
                     random.shuffle(questions[question]["options"])
-                print(3)
+              
     
         # Display background and question
         display.fill(white)
